@@ -31,7 +31,7 @@ export 'API_TOKEN_SECRET'='<your_api_token_secret>'
 
 ## `main.py`
 
-This script returns context and entities annotation, via the command line interface, for a given Twitter profile (aka @username).
+This script returns context and entities annotation, via the command line interface, for a given Twitter profile (aka @username). You will be prompted to pass in the @username when you run the script.
 
 When present, entity annotations are analysed and returned. This means that specific people, places, products, organizations, or other topics that have been mentioned in the user's Tweets in the past week are displayed. These entities are only displayed if they have been categorized with a confidence score of 0.5 or higher.
 
@@ -45,7 +45,7 @@ python3 main.py
 
 ## `data_to_csv.py`
 
-This script returns context annotations data in a csv file for a list of given usernames. 
+This script returns context annotations data in a csv file (generates a file entitled `annotations.csv`) for a list of given usernames. 
 
 To pass in the usernames (aka @handles) for which you want to pull annotations data: populate the file entitled `Twitter_handles.csv` with the desired handles/usernames, without the @ (as per the example).
 
