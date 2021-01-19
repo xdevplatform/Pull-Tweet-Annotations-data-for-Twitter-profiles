@@ -1,4 +1,4 @@
-# Annotations Topics
+# Pull Tweet annotations for Twitter profiles
 
 This sample code pulls contextual information for given Twitter profiles, based on their recent Tweets (past 7 days), including: 
 * Context annotations (annotation domains and annotation entities)
