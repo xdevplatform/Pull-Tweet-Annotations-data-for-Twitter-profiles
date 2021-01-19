@@ -13,7 +13,7 @@ import csv
 #   export 'API_TOKEN_SECRET'='<your_api_token_secret>'
 
 # To import @handles for which to pull annotations data: 
-#   Create "Twitter_handles.csv" and populate with handles/usernames (see sample.csv as example)
+#   Create "Twitter_handles.csv" and populate with handles/usernames (as per example)
 
 api_key = os.environ.get("API_KEY")
 api_secret = os.environ.get("API_SECRET")
